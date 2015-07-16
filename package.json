@@ -1,0 +1,18 @@
+{
+  "name": "fakeObjectId",
+  "version": "0.0.1",
+  "description": "just a fake objectId generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["faker", "objectId"],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sprint": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
