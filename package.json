@@ -1,5 +1,5 @@
 {
-  "name": "fakeObjectId",
+  "name": "fake-object-id",
   "version": "0.0.1",
   "description": "just a fake objectId generator",
   "main": "index.js",
