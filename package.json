@@ -1,6 +1,6 @@
 {
   "name": "fake-object-id",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "just a fake objectId generator",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "engine": {
+    "node": ">=0.10"
   }
 }
