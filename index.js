@@ -10,28 +10,14 @@
  *   a 3-byte counter, starting with a random value.
  */
 var sprint = require('sprint');
+var pad = require('pad');
+
 module.exports = function simpleObjectId () {
-
-  function pad (string, length) {
-    string = string.toString();
-    var delta = length - string.length;
-
-    var padder = '';
-
-    if (delta) {
-      while (delta--) {
-        padder += 0;
-      }
-    }
-
-    return padder + string;
-
-  }
 
   function getValue (length) {
     var max = new Array(length + 1).join('f');
     var r = Math.random() * parseInt(max, 16) | 0;
-    return pad(r.toString(16), length);
+    return pad(r.toString(16), length, '0');
   }
 
   function genTimestamp () {

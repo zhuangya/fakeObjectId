@@ -1,15 +1,23 @@
 {
   "name": "fake-object-id",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "just a fake objectId generator",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": ["faker", "objectId"],
+  "keywords": [
+    "faker",
+    "objectId"
+  ],
   "author": "Ya Zhuang <zhuangya@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuangya/fakeObjectId"
+  },
   "dependencies": {
+    "pad": "^1.0.0",
     "sprint": "^0.3.1"
   },
   "devDependencies": {

@@ -13,6 +13,8 @@ describe('fakeObjectId', function () {
     assert.equal(+new Date(epoch), epoch);
   });
   it('should be a string match /[a-f0-9]{24}/g', function () {
-    assert.ok(/[a-f0-9]{24}/g.test(fakeObjectId()));
+    for (var i = 0; i < 512; i++) {
+      assert.ok(/[a-f0-9]{24}/g.test(fakeObjectId()));
+    }
   });
 });
