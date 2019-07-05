@@ -17,11 +17,11 @@
     "url": "https://github.com/zhuangya/fakeObjectId"
   },
   "dependencies": {
-    "pad": "^1.0.0",
+    "pad": "^3.2.0",
     "sprint": "^0.3.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^6.1.4"
   },
   "engine": {
     "node": ">=0.10"
