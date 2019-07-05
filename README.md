@@ -1,5 +1,7 @@
 # fake object id
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zhuangya/fakeObjectId.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
